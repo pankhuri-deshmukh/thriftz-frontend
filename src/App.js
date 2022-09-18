@@ -3,8 +3,8 @@ import AllInOne from './components/AllInOne';
 import Allproducts from './components/Allproducts';
 import Footer from './components/Footer';
 import Hero from './components/Hero';
-import Navbar from './components/Navbar'
-import Support from './components/Support'
+import Navbar from './components/Navbar';
+import Support from './components/Support';
 
 function App() {
   return (
@@ -16,6 +16,7 @@ function App() {
       <Allproducts />
       <AllInOne />
       <Footer />
+      
     </>
   );
 }
