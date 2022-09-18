@@ -3,6 +3,7 @@ import card1 from '../assets/f1.jpg'
 import card2 from '../assets/f6.jpg'
 import card3 from '../assets/f7.jpg'
 import card4 from '../assets/f8.jpg'
+import card5 from '../assets/f4.jpg'
 
 
 const About = () => {
@@ -67,6 +68,23 @@ const About = () => {
         
     </div>
 </div>
+
+<div class="max-w-xs bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 px-4">
+    <a href="#">
+        <img class="rounded-t-lg" src={card5} alt="" />
+    </a>
+    <div class="p-5">
+        <a href="#">
+            <h6 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">Colour Blocked Casual Jacket</h6>
+        </a>
+        <p class="mb-3 font-bold text-gray-700 dark:text-gray-400 text-center">H & M</p>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 text-center">₹ 1200</p>
+        <p class="mb-3 text-xs text-gray-700 dark:text-gray-400 text-center">Samuel</p>
+        
+    </div>
+</div>
+
+
 </div>
 </div>
   )
